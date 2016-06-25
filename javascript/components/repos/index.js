@@ -36,12 +36,10 @@ class ReposContainer extends Component {
  */
 function fetchUsers(userName) {
   return fetch(`https://api.github.com/users/${userName}/repos`)
-    .then(function (response) {
-      return response.json();
-    })
-    .then(function (reposList) {
+    .then((response) => (response.json()))
+    .then((reposList) => {
       return {
-        type: 'LOAD_USERS',
+        type: 'LOAD_REPOS',
         repos: reposList
       };
     });

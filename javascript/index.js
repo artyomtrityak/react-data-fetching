@@ -4,9 +4,12 @@ import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import rootReducer from './reducers';
 
-// Repositories list container
+// Containers
 import Repos from './components/repos';
+import Gists from './components/gists';
 
+// NOTE:
+// Replace <Repos /> to <Gists /> for complex data layer
 
 const store = createStore(rootReducer);
 render(
