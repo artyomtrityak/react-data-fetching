@@ -1,6 +1,6 @@
 # React data fetching example
 
-(https://medium.com/@ArtyomTrityak/forward-to-the-past-or-data-fetching-in-react-js-9f4ccfa29c10)[Medium post]
+[Medium post](https://medium.com/@ArtyomTrityak/forward-to-the-past-or-data-fetching-in-react-js-9f4ccfa29c10)
 
 ##How to run
 
